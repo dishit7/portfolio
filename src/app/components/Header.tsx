@@ -1,14 +1,15 @@
 import Link from 'next/link'
 import { Github, Linkedin, Twitter } from 'lucide-react'
-import { FaDownload } from 'react-icons/fa6'
+import { FaCircle, FaDownload } from 'react-icons/fa6'
 import { GrContactInfo } from 'react-icons/gr'
 import { Button } from './ui/button'
 import MarqueeDemo from './Skills'
-import { Globe } from './ui/globe'
-
+import { HoverBorderGradient } from './ui/hover-board-gradient'
+ 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
+           
       <header className="p-6 bg-gray-900 border-b border-gray-800">
         <nav className="flex justify-between items-center">
           <span className="text-2xl font-bold text-white">
@@ -36,8 +37,11 @@ export default function Home() {
                 src="/photo3cropped.png"
                 alt="Dishit Karia"
                 className="w-full h-full object-cover rounded-full"
+
               />
+
             </div>
+                
           </div>
           <div className="hidden md:block w-px h-64 bg-gradient-to-b from-transparent via-gray-700 to-transparent mx-8"></div>
           <div className="md:w-1/2 text-center md:text-left">
@@ -67,10 +71,18 @@ export default function Home() {
               Contact Me
             </Link>
               </Button>
-                       </div>
-                  </div>
-                   
+            </div>
+            <div className='ml-20 pt-2'>
+                <HoverBorderGradient className="flex items-center gap-2 text-sm  ">
+          <FaCircle className="size-2 animate-pulse fill-green-600 text-green-600" />
+          Open for work
+              </HoverBorderGradient>
               </div>
+          </div>
+             
+                   
+        </div>
+        
       </main> 
     </div>
   )
