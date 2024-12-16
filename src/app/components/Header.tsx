@@ -50,7 +50,7 @@ export default function Home() {
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6 text-gray-400">Full Stack Developer</h2>
             <p className="text-lg md:text-xl mb-8 text-gray-300">
-              Hi, I'm Dishit Karia—a full-stack developer with a knack for solving problems and  (and great snacks).
+              Hi, I'm Dishit Karia—a full-stack developer with a knack for solving problems,good software (and great snacks).
               <br />
               Let's build something awesome together!
             </p> 
