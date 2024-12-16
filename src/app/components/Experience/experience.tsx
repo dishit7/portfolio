@@ -10,29 +10,29 @@ const experiencesData = [
     location: "Pune, India",
     organization: "Bhartiya Vidyapeeth, IMED",
     description:
-      "I am nearing the completion of my computer degree, currently in the final year.",
+      "I am nearing the completion of my computer degree, currently in the final year.Current CGPA is 9",
     icon: <FaGraduationCap className="w-[40px] h-[40px]" />,
     date: "2022-present",
   },
   {
     title: "1st-InterCollege Coding Ninja's Comp & 100x Genai Buildathon Finalist",
-    location: "Pune, India",
-    organization: "Self-Employed",
+    location: "",
+    organization: "",
     description:
           `Secured the first position in the Coding Ninja’s InterCollege competition, solving a medium-level DSA problem in 15 minutes under pressure. The event was delayed, but I was able to deliver an efficient solution in a competitive environment.
            Finalist in the 100x Generative AI Buildathon, where I developed an interactive video avatar for international career counseling. My effort was recognized in the finals, where I competed with other innovative solutions and showcased my ability to deliver impactful projects using AI.
 `,
     icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
-    date: "Ongoing",
+    date: "",
   },
   {
     title: "Contributed to an Open Source Repo with 7.4k stars",
     location: "Remote",
-    organization: "Self-Employed",
+    organization: "",
     description:
-      "Contributed to the SuperMemory project, a popular open-source repository with over 7.4k stars. I raised a PR with an enhancement using `contentEditable` instead of textboxes, and proposed a feature to improve input handling by switching from `useState` to `useRef`, though it is still under review.",
+      "Contributed to the SuperMemory project, a popular open-source repository with over 7.4k stars.",
     icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
-    date: "Ongoing",
+    date: "",
   },
   
   {

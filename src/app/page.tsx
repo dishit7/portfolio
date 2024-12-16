@@ -26,10 +26,7 @@ export default function Home() {
            <section className="bg-transperant ml-5 border border-white rounded-lg w-3/4 py-6">
             <h1 className='text-2xl font-bold ml-5'>Currently Learning </h1>
               <img src="/langchain.png" alt="langchain-logo" className='bg-transparent p-5' />
-              <HoverBorderGradient className="flex items-center gap-2 text-sm my-7">
-          <FaCircle className="size-2 animate-pulse fill-green-600 text-green-600" />
-          Open for work
-        </HoverBorderGradient>
+               
           </section >
           
  

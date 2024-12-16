@@ -32,9 +32,9 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-8rem)]">
           <div className="md:w-1/2 mb-8 md:mb-0">
-                    <div className="w-64 h-64 bg-gradient-to-r from-gray-800 to-gray-700 rounded-full mx-auto spin-slow">
+                    <div className="w-64 h-64 bg-gradient-to-r from-gray-800 to-gray-700 rounded-full mx-auto  ">
               <img
-                src="/photo3cropped.png"
+                src="/new-image.png"
                 alt="Dishit Karia"
                 className="w-full h-full object-cover rounded-full"
 

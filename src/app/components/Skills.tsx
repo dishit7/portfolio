@@ -26,7 +26,9 @@ const skills = [
   { name: "Prisma", icon: <SiPrisma className="text-4xl text-emerald-500" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-4xl text-green-500" /> },
   { name: "PostgreSQL", icon: <BiLogoPostgresql className="text-4xl text-blue-700" /> },
-  { name: "Python", icon: <IoLogoPython className="text-4xl text-yellow-600" /> } ,
+  { name: "Python", icon: <IoLogoPython className="text-4xl text-yellow-600" /> },
+   { name: "Pinecone", icon: <span className="text-4xl text-blue-500">🔵</span> },  // You can replace this with a custom icon
+  { name: "GROQ", icon: <span className="text-4xl text-purple-500">📜</span> }, 
 ];
 
 const SkillsMarquee = () => {
