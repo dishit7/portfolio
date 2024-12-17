@@ -34,7 +34,7 @@ const projects = [
     title: "Elytra",
     description:
       "Elytra is an AI-powered platform that simplifies international student counseling, offering personalized video guides and resources for aspiring students.",
-    tags: ["Next.js", "Heygen", "Groq", "AI"],
+    tags: ["Next.js", "Heygen", "Groq"],
     liveLink: "https://rishii.dev",
     githubLink: "https://github.com/rishipatel9/Elytra",
     imageUrl: "/Elytra.png",
