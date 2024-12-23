@@ -17,14 +17,14 @@ export default function Home() {
       <div className="relative z-10">
         <Header />
 
-        <div className="flex flex-wrap gap-4 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
           {/* Skills Section */}
-          <section className="bg-transparent border border-white rounded-sm w-full md:w-3/4 py-6">
+          <section className="bg-transparent border border-white rounded-sm col-span-1 md:col-span-3 py-6">
             <SkillsMarquee />
           </section>
 
           {/* Currently Learning Section */}
-          <section className="bg-transparent border border-white rounded-lg w-full md:w-3/4 py-6">
+          <section className="bg-transparent border border-white rounded-lg col-span-1 py-6">
             <h1 className="text-2xl font-bold text-center md:ml-5">Currently Learning</h1>
             <img
               src="/langchain.png"
