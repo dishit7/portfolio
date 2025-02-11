@@ -41,6 +41,15 @@ const projects = [
   },
 ];
 
+const hotOffThePressProject = {
+  title: "Flownodes",
+  description:
+    "Flownodes is a low-code node-based tool for building GenAI-powered agentic workflows. It allows users to design intelligent workflows with an intuitive drag-and-drop UI and minimal code.",
+  tags: ["Next.js", "React-Flow", "Python", "FastAPI","Gemini","Docker"],
+  githubLink: "https://github.com/dishit7/flownodes",
+  liveLink: "https://flownodes.dishit.dev/",
+  imageUrl: "/flownodes.png", 
+};
 
 export default function Projects() {
   return (
@@ -50,6 +59,10 @@ export default function Projects() {
         {projects.map((data) => (
           <ProjectCard key={data.title} data={data} />
         ))}
+      </div>
+      <h2 className="text-3xl font-bold mb-8 text-white text-center mt-16">Hot Off the Press</h2>
+      <div className="flex justify-center">
+        <ProjectCard key={hotOffThePressProject.title} data={hotOffThePressProject} />
       </div>
     </section>
   );
