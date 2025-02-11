@@ -13,22 +13,22 @@ import {
 } from "react-icons/si";
 
 const skills = [
-  { name: "HTML", icon: <IoLogoHtml5 className="text-4xl text-orange-500" /> },
-  { name: "CSS", icon: <IoLogoCss3 className="text-4xl text-blue-500" /> },
-  { name: "Javascript", icon: <IoLogoJavascript className="text-4xl text-yellow-500" /> },
-  { name: "Typescript", icon: <BiLogoTypescript className="text-4xl text-blue-600" /> },
-  { name: "ReactJS", icon: <FaReact className="text-4xl text-cyan-400" /> },
-  { name: "NextJS", icon: <SiNextdotjs className="text-4xl text-white dark:text-white" /> },
-  { name: "NodeJS", icon: <IoLogoNodejs className="text-4xl text-green-600" /> },
-  { name: "ExpressJS", icon: <SiExpress className="text-4xl" /> },
-  { name: "Git", icon: <FaGitAlt className="text-4xl text-orange-600" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-4xl text-cyan-400" /> },
-  { name: "Prisma", icon: <SiPrisma className="text-4xl text-emerald-500" /> },
-  { name: "MongoDB", icon: <SiMongodb className="text-4xl text-green-500" /> },
-  { name: "PostgreSQL", icon: <BiLogoPostgresql className="text-4xl text-blue-700" /> },
-  { name: "Python", icon: <IoLogoPython className="text-4xl text-yellow-600" /> },
-   { name: "Pinecone", icon: <span className="text-4xl text-blue-500">🔵</span> },  // You can replace this with a custom icon
-  { name: "GROQ", icon: <span className="text-4xl text-purple-500">📜</span> }, 
+  { name: "HTML", icon: <IoLogoHtml5 className="text-4xl text-white" /> },
+  { name: "CSS", icon: <IoLogoCss3 className="text-4xl text-white" /> },
+  { name: "Javascript", icon: <IoLogoJavascript className="text-4xl text-white" /> },
+  { name: "Typescript", icon: <BiLogoTypescript className="text-4xl text-white" /> },
+  { name: "ReactJS", icon: <FaReact className="text-4xl text-white" /> },
+  { name: "NextJS", icon: <SiNextdotjs className="text-4xl text-white" /> },
+  { name: "NodeJS", icon: <IoLogoNodejs className="text-4xl text-white" /> },
+  { name: "ExpressJS", icon: <SiExpress className="text-4xl text-white" /> },
+  { name: "Git", icon: <FaGitAlt className="text-4xl text-white" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-4xl text-white" /> },
+  { name: "Prisma", icon: <SiPrisma className="text-4xl text-white" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-4xl text-white" /> },
+  { name: "PostgreSQL", icon: <BiLogoPostgresql className="text-4xl text-white" /> },
+  { name: "Python", icon: <IoLogoPython className="text-4xl text-white" /> },
+  { name: "Pinecone", icon: <span className="text-4xl text-white">🔵</span> },   
+  { name: "GROQ", icon: <span className="text-4xl text-white">📜</span> }, 
 ];
 
 const SkillsMarquee = () => {
