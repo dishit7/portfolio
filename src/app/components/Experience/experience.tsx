@@ -35,15 +35,31 @@ const experiencesData = [
     date: "",
   },
   
-  {
-    title: "Freelancing",
-    location: "Remote",
-    organization: "Self-Employed",
-    description:
-      "I have been freelancing for several months, building dynamic web applications. One of my projects was a Next.js-based Discord app for a client, enabling real-time database toggling via a proxy server. Currently, I'm working on a web app for the Kuber Foundation, a home NGO.",
-    icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
-    date: "Ongoing",
-  },
+ {
+  title: "Freelancing",
+  location: "Remote",
+  organization: "Self-Employed",
+  description: (
+    <>
+      I have been freelancing for several months, working on various dynamic web applications. Some of my key projects include:
+      <ul className="list-disc pl-5">
+        <li>
+          Built an AI SaaS platform for a US-based client as part of a team, focusing on delivering scalable and efficient solutions.
+        </li>
+        <li>
+          Developed an internal tool for bulk messaging, integrating multiple services to streamline communication for a client.
+        </li>
+        <li>
+          Created a Next.js-based Discord app that allows real-time database toggling via a proxy server, improving user experience and functionality.
+        </li>
+      </ul>
+      Currently, I’m working on a web app for the Kuber Foundation, a home NGO, focusing on empowering communities through technology.
+    </>
+  ),
+  icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
+  date: "Ongoing",
+}
+
 ];
 
 
